@@ -1,10 +1,13 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
+  color: #560bad;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-weight: bold;
 }
 
 ol, ul {
   padding-left: 30px;
+  font-family: 'Courier New', Courier, monospace
 }
 
 .board-row:after {
@@ -18,26 +21,27 @@ ol, ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: rgb(245,230,232);
+  border: 2px dashed rgb(127, 150, 255);
   float: left;
-  font-size: 24px;
+  font-size: 80px;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 100px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .square:focus {
-  outline: none;
+  outline: #414073;
 }
 
 .kbd-navigation .square:focus {
-  background: #ddd;
+  background: rgb(85, 221, 224);
 }
 
 .game {
@@ -49,17 +53,8 @@ ol, ul {
   margin-left: 20px;
 }
 
-.highlightSquare{
-  background: rgb(255, 255, 0);
-  border: 1px solid #999;
-  float: left;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
+.jumpButton{
+  color:deeppink;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline overline;
 }
